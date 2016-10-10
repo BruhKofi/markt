@@ -19,7 +19,8 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
-gem "paperclip-dropbox"
+gem 'devise'
+#gem "paperclip-dropbox"
 
 
 
