@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-
+<div class="center">
 <h1>Listings</h1>
 <div class="row">
     <% @listings.each do |listing| %>
@@ -22,3 +22,4 @@
 <br>
 
 <%= link_to 'New Listing', new_listing_path, class: "btn btn-link" %>
+</div>
